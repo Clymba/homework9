@@ -4,7 +4,7 @@ const CatController = require('../controller/cat.controller')
 
 router.post('/category_of_account', CatController.createCategory)
 router.get('/category_of_account', CatController.getCategory)
-router.get('/category_of_account/:code_category', CatController.getOneCategory)
+router.get('/category_of_account/:code_categry', CatController.getOneCategory)
 router.put('/category_of_account', CatController.updateCategory)
 router.delete('/category_of_account/:code_category', CatController.deleteCategory)
 
